@@ -1,0 +1,66 @@
+{
+	"programs":
+	{
+		"fastqc":
+		{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/FastQC/fastqc"
+		},
+		
+		"trimGalore":
+		{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/TrimGalore-0.6.2/trim_galore"
+
+		},
+
+		"trimmomatic":
+		{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/Trimmomatic-0.36/trimmomatic-0.36.jar"
+		
+		},
+
+		"bwa":
+		{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/bwa-0.7.17/bwa"
+		
+		},
+
+		"picard":
+		{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/picard/picard.jar"
+		},
+
+		"gatk":
+		{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/gatk-4.0.2.1/gatk"
+
+		},
+
+		"hg19":
+		{
+			"default":"/Users/rkpandya/Desktop/genomes/hg19_bwa_index/hg19.fa"
+		},
+
+		"multiqc":{
+			"default":"/Library/Frameworks/Python.framework/Versions/3.7/bin/multiqc"
+		},
+		"samtools":{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/samtools-1.9/samtools"
+		},
+
+		"gatk":{
+			"default":"/Users/rkpandya/Desktop/MySoftwares/gatk-4.1.4.1/gatk",
+			"local_jar":"/Users/rkpandya/Desktop/MySoftwares/gatk-4.1.4.1/gatk-package-4.1.4.1-local.jar",
+			"hapmap":"/Users/rkpandya/Desktop/MySoftwares/gatk-4.1.4.1/hapmap_3.3.hg19.sites.vcf.gz",
+			"omni": "/Users/rkpandya/Desktop/MySoftwares/gatk-4.1.4.1/1000G_omni2.5.hg19.sites.vcf.gz",
+			"1000G":"/Users/rkpandya/Desktop/MySoftwares/gatk-4.1.4.1/1000G_phase1.snps.high_confidence.hg19.sites.vcf.gz",
+			"dbsnp":"/Users/rkpandya/Desktop/MySoftwares/gatk-4.1.4.1/dbsnp_138.hg19.vcf"
+		},
+		"snpEff": {
+			"default": "/Users/rkpandya/Desktop/MySoftwares/snpEff/snpEff.jar",
+			"configuration_file": "/Users/rkpandya/Desktop/MySoftwares/snpEff/snpEff.config"
+		}
+	}
+}		
+		
+
+		
